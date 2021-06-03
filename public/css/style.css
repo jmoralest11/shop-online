@@ -1,0 +1,66 @@
+.listado_productos{
+    display: inline-block;
+    width: 27%;
+    margin: 30px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.listado_productos img{
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.listado_productos img:hover{
+    -webkit-transform: scale(1.2);
+}
+
+.informacion{
+    margin: 20px;
+}
+
+.fa-truck{
+    color: #014E01;
+    margin-right: 10px;
+}
+
+.fa-shopping-cart{
+    margin-right: 10px;
+}
+
+.fa-info{
+    margin-right: 10px;
+}
+
+.container img{
+    margin: 30px 0;
+    float: left;
+}
+
+.detalle{
+    float: right;
+    width: 40%;
+    margin: 30px 30px;
+}
+
+.detalle p.precio{
+    color: #FF0000;
+    font-size: 2rem;
+}
+
+.descripcion{
+    font-size: 1.5rem;
+}
+
+.detalle p.precio span{
+    font-size: 1rem;
+}
+
+button.comprar{
+    width: 100%;
+}
+
+#cant{
+    color: green;
+    font-size: 1.5rem;
+}
+
